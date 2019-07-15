@@ -55,7 +55,8 @@
 									<i class="fas fa-fw fa-money"></i>
 								</div>
 								<div class="mr-5">Jumlah Produk</div>
-								<div class="h4"><?php echo $prdk->jumlah ?></div>
+								<div class="h4"><?php echo $prdk->jumlah ?> buah
+								</div>
 							</div>
 							<a class="card-footer text-white clearfix small z-1"
 								href="<?php echo site_url('produk') ?>">
@@ -73,7 +74,7 @@
 									<i class="fas fa-fw fa-warning"></i>
 								</div>
 								<div class="h4"><?php echo $kdl ?></div>
-								<div class="mr-5">Produk Segera Kedaluwarsa</div>
+								<div class="mr-5">Macam Produk Segera Kedaluwarsa</div>
 							</div>
 							<a class="card-footer text-white clearfix small z-1"
 								href="<?php echo site_url('laporan/expiredReport') ?>">
